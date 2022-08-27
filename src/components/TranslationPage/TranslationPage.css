@@ -1,0 +1,38 @@
+.translation-wrapper {
+    margin: auto;
+    width: 65%;
+    height: 10%;
+    box-shadow: #282c34;
+    border-bottom: none;
+}
+
+.translate-area-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.translate-area {
+    text-align: center;
+    width: 50%;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.border-right {
+    border-right: none;
+}
+
+.translation-header {
+    display: flex;
+    align-items: center;
+    height: 15%;
+    border: 1px solid black;
+}
+
+textarea {
+    width: 96%;
+    height: 96%;
+    resize: none;
+    border: none;
+    outline: none;
+}
