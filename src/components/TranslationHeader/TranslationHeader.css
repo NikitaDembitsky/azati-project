@@ -1,0 +1,15 @@
+.translation-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    border: 1px solid black;
+}
+
+.header-item {
+    display: flex;
+}
+
+.switch-btn {
+    position: absolute;
+}
