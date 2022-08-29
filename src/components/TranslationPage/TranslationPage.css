@@ -4,11 +4,14 @@
     height: 10%;
     box-shadow: #282c34;
     border-bottom: none;
+    background-color: var(--background-color);
 }
 
 .translate-area-wrapper {
     display: flex;
     height: 100%;
+    position: relative;
+    margin-bottom: 10%;
 }
 
 .translate-area {
@@ -22,17 +25,16 @@
     border-right: none;
 }
 
-/*.translation-header {*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    height: 15%;*/
-/*    border: 1px solid black;*/
-/*}*/
-
 textarea {
     width: 96%;
     height: 96%;
     resize: none;
     border: none;
     outline: none;
+}
+
+.favorite-btn {
+    position: absolute;
+    right: 1%;
+    top: 5%;
 }

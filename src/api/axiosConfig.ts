@@ -11,9 +11,3 @@ export const api = axios.create({
         'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
     },
 });
-
-
-
-    // axios.create({
-    // baseURL: 'https://microsoft-translator-text.p.rapidapi.com/'
-// });
