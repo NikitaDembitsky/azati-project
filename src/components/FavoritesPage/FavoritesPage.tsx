@@ -4,7 +4,7 @@ const FavoritesPage = () => {
     return (
         <div className='favorites-wrapper'>
             {
-                JSON.parse(localStorage.getItem('favorite') as string).map((item: any) => {
+                JSON.parse(localStorage.getItem('favorite') as string) ? JSON.parse(localStorage.getItem('favorite') as string).map((item: any) => {
                     return (
                         <div className='favorites-item'>
                             <div>{item.languageFrom} ➝ {item.languageTo}</div>
@@ -12,7 +12,7 @@ const FavoritesPage = () => {
                             <div>to: {item.textTo}</div>
                         </div>
                     )
-                })
+                }) : null
             }
         </div>
     )
