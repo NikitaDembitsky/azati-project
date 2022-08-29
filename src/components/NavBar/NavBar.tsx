@@ -19,8 +19,8 @@ const NavBar = () => {
                 <h3 className='navbar-header'>Translator</h3>
             </div>
             <div>
-                <Link className='nav-item' to={'/'}>Переводы</Link>
-                <Link className='nav-item' to={'favorite'}>Избранное</Link>
+                <Link className='nav-item' to={'/'}>Translations</Link>
+                <Link className='nav-item' to={'favorite'}>Favorites</Link>
                 <button onClick={enableDarkTheme}>Dark</button>
                 <button onClick={enableLightTheme}>Light</button>
             </div>
